@@ -56,7 +56,7 @@ Data Cleaning · Data Validation · Deduplication · Feature Engineering · Pivo
 ![Bike Sales Dashboard](./Excel%20final%20dashboard.png)
 Interactive slicers allow filtering by gender, age bracket, and commute distance in real time.
 
-Three interconnected charts** provide a complete view of purchasing behavior from income, demographics, and commute patterns
+Three interconnected charts provide a complete view of purchasing behavior from income, demographics, and commute patterns
 - Dynamic filtering via slicers allows users to drill down into specific customer segments instantly — select "Middle Aged" and "Europe" to see how that cohort behaves
 - Consistent color coding (orange for buyers, blue for non-buyers) makes it easy to spot patterns at a glance
 - Professional layout with clear section headers and strategic spacing guides users through the analysis
