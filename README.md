@@ -3,14 +3,17 @@ Excel analysis of bike buyer behaviour — from raw data to an interactive sales
 
 🚲 Bike Sales Analysis — Excel Data Analytics Project
 
-Who buys bikes and why? This project digs into real customer data to uncover how income, age, gender, and commute distance influence purchasing decisions — built end-to-end in Microsoft Excel.
+Who buys bikes and why? This project digs into real customer data to uncover how income, age, gender, and commute distance influence purchasing decisions — built  in Microsoft Excel.
 
 
 📌 Project Overview
-This is a full end-to-end data analytics project completed in Excel, covering every stage of the data workflow — from messy raw data through to a polished, interactive dashboard. The goal was to identify the key demographic and behavioural factors that separate bike buyers from non-buyers, and present those findings in a clear, decision-ready format.
+This is a data analytics project completed in Excel, covering every stage of the data workflow — from messy raw data through to a polished, interactive dashboard. The goal was to identify the key demographic and behavioural factors that separate bike buyers from non-buyers, and present those findings in a clear, decision-ready format.
 
 📂 Workbook Structure
-SheetDescriptionbike_buyersOriginal raw datasetWorking SheetCleaned and transformed data ready for analysisPivotTableAggregated summaries powering the dashboardDashboardInteractive visualisation with slicers and filters
+Bike_buyers - Original raw dataset
+Working Sheet -  (Cleaned and transformed data ready for analysis
+PivotTable - Aggregated summaries powering the dashboard
+Dashboard - Interactive visualisation with slicers and filters
 
 🛠️ What Was Done
 🧹 Data Cleaning & Preparation
@@ -20,7 +23,8 @@ Standardised categorical fields (e.g. gender, marital status, region)
 Formatted income columns and corrected inconsistencies across the dataset
 Applied nested IF formulas to engineer a new Age Brackets column, categorising customers into Adolescent, Middle Aged, and Old segments
 
-excel=IF(L2>54,"Old",IF(L2>=31,"Middle Aged",IF(L2<31,"Adolescent","Invalid")))
+=IF(L2>54,"Old",IF(L2>=31,"Middle Aged",IF(L2<31,"Adolescent","Invalid")))
+
 📊 Pivot Table Analysis
 Built multiple pivot tables to slice the data across key dimensions:
 
@@ -47,3 +51,8 @@ Slicers for dynamic filtering by Gender, Age Bracket, and Commute Distance
 
 💡 Skills Demonstrated
 Data Cleaning · Data Validation · Deduplication · Feature Engineering · Pivot Tables · Data Visualisation · Dashboard Design · Slicers & Filters · Nested IF Logic · Analytical Thinking
+
+
+Excel final dashboard.png
+
+
