@@ -11,7 +11,7 @@ This is a data analytics project completed in Excel, covering every stage of the
 
 📂 Workbook Structure
 Bike_buyers - Original raw dataset
-Working Sheet -  (Cleaned and transformed data ready for analysis
+Working Sheet -  Cleaned and transformed data ready for analysis
 PivotTable - Aggregated summaries powering the dashboard
 Dashboard - Interactive visualisation with slicers and filters
 
