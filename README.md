@@ -6,16 +6,16 @@ Bike Sales Analysis — Excel Data Analytics Project
 Who buys bikes and why? This project digs into real customer data to uncover how income, age, gender, and commute distance influence purchasing decisions — built  in Microsoft Excel.
 
 
-Project Overview
+# Project Overview
 This is a data analytics project completed in Excel, covering every stage of the data workflow — from messy raw data through to a polished, interactive dashboard. The goal was to identify the key demographic and behavioural factors that separate bike buyers from non-buyers, and present those findings in a clear, decision-ready format.
 
-Workbook Structure
+# Workbook Structure
 Bike_buyers - Original raw dataset
 Working Sheet -  Cleaned and transformed data ready for analysis
 PivotTable - Aggregated summaries powering the dashboard
 Dashboard - Interactive visualisation with slicers and filters
 
-What Was Done:
+# What Was Done:
 Data Cleaning & Preparation
 Removed duplicate records to ensure data integrity
 Standardised categorical fields (e.g. gender, marital status, region)
@@ -24,14 +24,14 @@ Applied nested IF formulas to engineer a new Age Brackets column, categorising c
 
 =IF(L2>54,"Old",IF(L2>=31,"Middle Aged",IF(L2<31,"Adolescent","Invalid")))
 
-Pivot Table Analysis
+# Pivot Table Analysis
 Built multiple pivot tables to slice the data across key dimensions:
 
 Average Income by gender and purchase decision
 Purchase Count by commute distance
 Customer distribution by age bracket and purchase behaviour
 
-Interactive Dashboard
+# Interactive Dashboard
 Designed a clean, filterable dashboard featuring:
 
 Bar chart — Average income per purchase, broken down by gender
@@ -40,7 +40,7 @@ Line chart — Customer commute distance vs. purchase rate
 Slicers for dynamic filtering by Gender, Age Bracket, and Commute Distance
 
 
-Key Insights
+# Key Insights
 
 Income drives purchases — Customers who bought a bike earned higher average incomes across both genders. Male buyers averaged £60,124 vs £56,208 for non-buyers.
 Middle Aged customers are the core market — This age group showed the highest volume of bike purchases, significantly outpacing both Adolescent and Old segments.
@@ -48,7 +48,7 @@ Shorter commutes = more buyers — The 0-1 mile commute bracket had the highest 
 Gender gap exists but is consistent — Males purchased at a higher rate than females, though both genders followed the same income and commute trends.
 
 
-Skills Demonstrated
+# Skills Demonstrated
 Data Cleaning · Data Validation · Deduplication · Feature Engineering · Pivot Tables · Data Visualisation · Dashboard Design · Slicers & Filters · Nested IF Logic · Analytical Thinking
 
 
