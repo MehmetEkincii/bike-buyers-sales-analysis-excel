@@ -52,6 +52,7 @@ Gender gap exists but is consistent — Males purchased at a higher rate than fe
 Data Cleaning · Data Validation · Deduplication · Feature Engineering · Pivot Tables · Data Visualisation · Dashboard Design · Slicers & Filters · Nested IF Logic · Analytical Thinking
 
 
+
 ![Bike Sales Dashboard](./Excel%20final%20dashboard.png)
 Interactive slicers allow filtering by gender, age bracket, and commute distance in real time.
 
